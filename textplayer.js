@@ -7,7 +7,7 @@
 			btnPause: null,
 			btnStop: null,
 			speed: 100,
-			marker: true
+			cursor: true
 		};
 		if (settings){
 			$.extend(config,settings);
@@ -34,13 +34,13 @@
 		}
 		
 		return this.each(function(){
-			if (config.marker == true) {
+			if (config.cursor == true) {
 				marked = setInterval(function() {
 					if (reading) {
 						container.css("border-right","black solid thin");							
 					} else {
 						if (container.css("border-right-color") == "rgb(0, 0, 0)") {
-							container.css("border-right","white solid thin");
+							container.css("border-right","transparent solid thin");
 						} else {
 							container.css("border-right","black solid thin");							
 						}

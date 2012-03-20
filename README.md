@@ -22,7 +22,7 @@ That's it!
 
 ##Options
 
-You can customize the behavior of your text with custom buttons, delays between each character typed and a flashing:
+You can customize the behavior of your text with custom buttons, delays between each character typed and a flashing cursor (in progress):
 
 ``` js
 $(".foobar").textplayer({
@@ -30,6 +30,7 @@ $(".foobar").textplayer({
 	btnPlay: "#play",		// default: null
 	btnPause: "#pause",		// default: null
 	btnStop: "#stop",		// default: null
+	slider: "#slider",		// default: null
 	delay: 40,				// default: 100
 	cursor: false			// default: true
 });

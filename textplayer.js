@@ -6,8 +6,9 @@
 			btnPlay: null,
 			btnPause: null,
 			btnStop: null,
-			speed: 100,
-			cursor: true
+			slider: null,
+			delay: 100,
+			cursor: false
 		};
 		if (settings){
 			$.extend(config,settings);
@@ -24,13 +25,14 @@
 				var targetText = container.attr("data-text");
 				var typedText = container.html() + targetText[container.html().length];
 				if (typedText.length <= targetText.length) {
-					container.html(typedText);					
+					container.html(typedText);
+					$(config.slider).slider("value",typedText.length)				
 				}
 				if (typedText == targetText) {
 					reading = 0;
 					clearInterval(played);
 				}
-			},config.speed);			
+			},config.delay);			
 		}
 		
 		return this.each(function(){
@@ -46,6 +48,17 @@
 						}
 					}
 				},500);
+			}
+			if (config.slider) {
+				$(config.slider).slider({
+					value: 0,
+					min: 0,
+					max: container.attr("data-text").length,
+					step: 1,
+					slide: function(event, ui) {
+						container.html(container.attr("data-text").substring(0,ui.value));	
+					}
+				});
 			}
 			if (config.autoPlay == true) {
 				playText();					
@@ -66,6 +79,7 @@
 			if (config.btnStop) {
 				$(config.btnStop).click(function() {
 					container.html("");
+					$(config.slider).slider("value",0)
 					reading = 0;
 					clearInterval(played);
 				});

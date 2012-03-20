@@ -41,8 +41,8 @@ Works fine on Chrome, Safari and Firefox.
 
 ##Contributing
 
-This project was just born a few hours ago so may definitely need improvement so feel free to get in touch via github, or just start submitting patches!
+I just started this project a few hours ago so it may definitely need improvements. Feel free to get in touch via github, or just start submitting patches!
 
-##Other
+##Follow me
 
-Follow [@gwendall](https://twitter.com/gwendall)
+[@gwendall](https://twitter.com/gwendall)

@@ -39,7 +39,7 @@ $(".foobar").textplayer({
 	btnStop: "#stop",		// default: null
 	slider: "#slider",		// default: null
 	delay: 40,				// default: 100
-	cursor: false			// default: true
+	cursor: false			// default: false
 });
 ```
 

@@ -1,8 +1,8 @@
-#[textplayer.js](http://gwen.fm/textplayer)  (a jquery plugin to simulate live text typing)
+#[textplayer.js](http://gwendall.github.com/)  (a jquery plugin to simulate live text typing)
 
 textplayer.js lets you easily simulate live typing of a text.
 
-[Check a live demo here](https://gwen.fm/textplayer)
+[Check a live demo here](http://gwendall.github.com/)
 
 ##Basic installation
 

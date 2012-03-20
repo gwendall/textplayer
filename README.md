@@ -43,6 +43,6 @@ Works fine on Chrome, Safari and Firefox.
 
 I just started this project a few hours ago so it may definitely need improvements. Feel free to get in touch via Github/Twitter for suggestions or just start submitting patches!
 
-##Follow me
+##Follow me!
 
 [@gwendall](https://twitter.com/gwendall)

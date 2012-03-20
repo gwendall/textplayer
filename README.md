@@ -41,7 +41,7 @@ Works fine on Chrome, Safari and Firefox.
 
 ##Contributing
 
-I just started this project a few hours ago so it may definitely need improvements. Feel free to get in touch via github, or just start submitting patches!
+I just started this project a few hours ago so it may definitely need improvements. Feel free to get in touch via Github/Twitter for suggestions or just start submitting patches!
 
 ##Follow me
 

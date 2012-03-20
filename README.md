@@ -22,7 +22,7 @@ That's it!
 
 ##Options
 
-You can indicate 
+You can customize the behavior of your text with the following options:
 
 ``` js
 $(".foobar").textplayer({
@@ -30,7 +30,7 @@ $(".foobar").textplayer({
 	btnPlay: "#play",		// default: null
 	btnPause: "#pause",		// default: null
 	btnStop: "#stop",		// default: null
-	speed: 40,				// default: 100
+	delay: 40,				// default: 100
 	marker: false			// default: true
 });
 ```

@@ -9,7 +9,8 @@ textplayer.js lets you easily simulate live typing of a text.
 1) Insert the jquery and jquery UI plugins.
 
 ``` html
-<div class="foobar" data-text="that's a nice text i'm typing right now."></div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="/bootstrap UI/js/jquery-ui-1.8.16.custom.min.js"></script>
 ```
 
 2) Create a container with the "data-text" attribute set to the value you want to be typed.
